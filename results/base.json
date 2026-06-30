@@ -1,0 +1,16 @@
+{
+  "n": 150,
+  "json_valid_rate": 1.0,
+  "field_accuracy": {
+    "origin": 1.0,
+    "destination": 1.0,
+    "weight_lbs": 1.0,
+    "mode": 0.8,
+    "on_time": 0.8866666666666667
+  },
+  "field_exact_match": 0.9373333333333334,
+  "overall_accuracy": 0.7133333333333334,
+  "model": "mlx-community/Qwen2.5-0.5B-Instruct-4bit",
+  "adapter": null,
+  "iters": 600
+}

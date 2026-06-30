@@ -5,3 +5,8 @@ __pycache__/
 .ruff_cache/
 *.egg-info/
 .DS_Store
+# build/run logs
+data_train.log
+data_eval.log
+# intermediate LoRA checkpoints (only the final adapters.safetensors is committed)
+adapters/[0-9]*_adapters.safetensors
